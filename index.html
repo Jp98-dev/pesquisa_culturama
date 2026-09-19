@@ -13,11 +13,11 @@
     <title>Pesquisa Culturama</title>
   </head>
   <body>
+    <main>
     <header>
       <img src="img/logo-culturama.png" alt="logo culturama">
       <h1>Pesquisa Online</h1>
     </header>
-
     <section>
       <form action="" method="get">
         <fieldset>
@@ -26,7 +26,6 @@
           <label for="name">Nome:</label>
           <input id="name" type="text" name="userName" required />
 
-          <br>
           <br>
 
           <label for="age">Idade:</label>
@@ -38,19 +37,16 @@
             max="100"
             required/>
 
-          <br/>
           <br>
 
           <label for="birthDate">Data de Nascimento:</label>
           <input id="birthDate" type="date" name="birthDate" />
 
           <br>
-          <br>
 
           <label for="userEmail">Email:</label>
           <input id="userEmail" type="email" name="userEmail" required />
 
-          <br>
           <br>
 
           <label for="userPhoneNumber">Telefone:</label>
@@ -62,12 +58,10 @@
             placeholder="DDD + numero"/>
 
           <br>
-          <br>
 
           <label for="userImage">Upload de foto</label>
           <input id="userImage" type="file" accept="image/*" name="userImage" />
 
-          <br>
           <br>
         </fieldset>
 
@@ -85,7 +79,6 @@
           <label for="not">Prefiro não informar</label>
 
           <br>
-          <br>
 
           <label for="maritalStatus">Estado Civil:</label>
           <select id="maritalStatus" name="userMaritalStatus">
@@ -97,7 +90,6 @@
             <option value="divorced">Divorciado(a)</option>
           </select>
 
-          <br>
           <br>
 
           <label for="state">Estado:</label>
@@ -133,7 +125,6 @@
           </select>
 
           <br>
-          <br>
 
           <label for="city">Cidade</label>
           <input id="city" type="text" name="userCity" />
@@ -165,7 +156,6 @@
           <label for="x">X</label>
 
           <br />
-          <br />
 
           <label for="musicStyle">Estilo Musical:</label>
           <input
@@ -180,7 +170,7 @@
             <option value="Samba"></option>
             <option value="Sertanejo"></option>
           </datalist>
-          <br>
+
           <br>
           <label for="favoriteColor">Cor Favorita:</label>
           <input type="color" name="userFavoriteColor" id="favoriteColor">
@@ -221,5 +211,7 @@
         <button type="reset">Limpar</button>
       </form>
     </section>
+    </main>
+
   </body>
 </html>
